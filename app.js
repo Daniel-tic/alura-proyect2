@@ -1,13 +1,8 @@
-<<<<<<< HEAD
-
+let numeroSecret = 0 
+let intentos = 0;
 //forma normal
 //let parrafo = document.querySelector('p');
 //parrafo.innerHTML = 'Escoge un numero del 1 al 10';
-
-let numeroSecret = 0 ;
-
-
-let intentos = 0;
 
 function asignarTextoElemento(elemento, texto){
     let elemntoHTML = document.querySelector(elemento);
@@ -70,11 +65,6 @@ function reiniciarJuego() {
 }
 
 condicionesIniciales();
-
 //forma profesional
 //asignarTextoElemento('h1','Juego del numero secret');
 //asignarTextoElemento('p','Escoge un numero del 1 al 10');
-=======
-let titulo = document.querySelector('h1');
-titulo.innerHTML = 'Juego del Numero secreto';
->>>>>>> 97bf20f8c7e8370ed7f19c2406f4fda4209d2aac
